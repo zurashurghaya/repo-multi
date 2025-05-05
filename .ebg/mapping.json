@@ -1,0 +1,58 @@
+{
+  "version" : 5,
+  "url" : "https://endevor-bridge-git-test.broadcom.luminatesec.com",
+  "git" : {
+    "context" : "zurashurghaya",
+    "repository" : "repo-multi",
+    "cloneUrl" : "https://github.com/zurashurghaya/repo-multi.git",
+    "branch" : "branchi1"
+  },
+  "endevor" : {
+    "connection" : "connection-mock",
+    "baseUrl" : "http://localhost:9900/EndevorService/rest",
+    "configuration" : "WEBSALC"
+  },
+  "branches" : [ {
+    "name" : "branchi1",
+    "environment" : "DEV",
+    "stageNumber" : 1,
+    "systems" : [ {
+      "name" : "ALC",
+      "alias" : null,
+      "subsystems" : [ {
+        "name" : "ALC",
+        "alias" : null,
+        "filter" : {
+          "elements" : [ ],
+          "types" : [ ]
+        }
+      } ],
+      "filter" : null
+    } ],
+    "mappingMode" : "WORK_ENV_ONLY",
+    "readOnly" : false,
+    "entryStage" : true,
+    "synchronizeListings" : false
+  }, {
+    "name" : "branchi2",
+    "environment" : "DEV",
+    "stageNumber" : 1,
+    "systems" : [ {
+      "name" : "ALC",
+      "alias" : null,
+      "subsystems" : [ {
+        "name" : "ALC",
+        "alias" : null,
+        "filter" : {
+          "elements" : [ ],
+          "types" : [ ]
+        }
+      } ],
+      "filter" : null
+    } ],
+    "mappingMode" : "WORK_ENV_ONLY",
+    "readOnly" : false,
+    "entryStage" : true,
+    "synchronizeListings" : false
+  } ]
+}
