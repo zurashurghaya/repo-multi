@@ -5,7 +5,7 @@
     "context" : "zurashurghaya",
     "repository" : "repo-multi",
     "cloneUrl" : "https://github.com/zurashurghaya/repo-multi.git",
-    "branch" : null
+    "branch" : "branchi1"
   },
   "endevor" : {
     "connection" : "connection-mock",
