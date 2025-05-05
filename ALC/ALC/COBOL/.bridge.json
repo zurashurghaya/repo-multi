@@ -2,6 +2,9 @@
   "elements" : {
     "TESTE0" : {
       "processorGroup" : "TEST"
+    },
+    "TESTZ0" : {
+      "processorGroup" : "TEST"
     }
   },
   "defaultProcessorGroup" : "CLENBL",
